@@ -1,0 +1,34 @@
+/* Order Section */
+.order {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-around;
+    background-image: url('Image/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.image-grid img {
+    max-width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.order-button {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.order-button:hover {
+    background-color: #c0392b;
+}
